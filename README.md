@@ -1,10 +1,17 @@
 # machine-learning-implementation
 
-This repository contains scripts that demonstrate the inner workings of various machine learning algorithms.
+This repository contains scripts that
 
 ## model-selection.py
 
-This script produces a plot illustrating the different algorithms of the gradient descent method when finding the minimum of Rosenbrock's Banana Function. It also gives where the minimum of the function occurs.
+This script compares the following six algorithms:
+
+- Logistic Regression (LR)
+- Linear Discriminant Analysis (LDA)
+- K-Nearest Neighbors (KNN)
+- Classification and Regression Trees (CART)
+- Gaussian Naive Bayes (NB)
+- Support Vector Machines (SVM)
 
 	python3 model-selection.py
 
